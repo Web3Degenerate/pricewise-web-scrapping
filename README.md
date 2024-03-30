@@ -1,3 +1,46 @@
+
+## Project Setup
+
+Run commands at [18th minute](https://www.youtube.com/watch?v=lh9XVGv6BHs&t=1129s). 
+
+- `npx create-next-app@latest ./`
+    - TypeScript - Yes
+    - ESLint - No
+    - Tailwind CSS - Yes
+    - 'src/' directory - No
+    - App Router - Yes
+    - import alias - No
+
+### Run localhost:3000
+- `npm run dev`
+
+
+---
+---
+
+### Plugins
+
+- Install **ES7+ React Snippets by dsznajder**
+    - Allows you to run `rafce`
+
+
+
+
+## Project Repositories
+
+1. Update `app/globals.css`
+    - [https://github.com/adrianhajdin/pricewise/blob/main/app/globals.css](https://github.com/adrianhajdin/pricewise/blob/main/app/globals.css)
+
+2. Update `tailwind.config.ts`
+    - [https://github.com/adrianhajdin/pricewise/blob/main/tailwind.config.ts](https://github.com/adrianhajdin/pricewise/blob/main/tailwind.config.ts)
+
+3. Update `app/layout.tsx`
+    - 
+
+
+---
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
