@@ -26,7 +26,10 @@ Run commands at [18th minute](https://www.youtube.com/watch?v=lh9XVGv6BHs&t=1129
 ### Plugins
 
 - Install **ES7+ React Snippets by dsznajder**
+
   - Allows you to run `rafce`
+
+- Install **Tailwind CSS IntelliSense _(Intelligent Tailwind CSS tooling for VS Code)_ by Tailwind Labs** plugin. [29:14]
 
 ## Project Repositories
 
