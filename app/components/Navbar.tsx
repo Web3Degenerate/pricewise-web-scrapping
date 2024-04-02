@@ -36,7 +36,7 @@ const Navbar = () => {
                     ))}
             </div>
 
-            {/* Resume at: https://youtu.be/lh9XVGv6BHs?si=FljZ41S_kve2N9kU&t=2017 */}
+            {/* Completed at: https://youtu.be/lh9XVGv6BHs?si=FljZ41S_kve2N9kU&t=2017 */}
         </nav>
 
     </header>
