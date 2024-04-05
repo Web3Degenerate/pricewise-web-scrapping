@@ -1,6 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
 
+// Completed at: https://youtu.be/lh9XVGv6BHs?si=FljZ41S_kve2N9kU&t=2017
+
 const navIcons = [
   {src: '/assets/icons/search.svg', alt: 'search'},
   {src: '/assets/icons/black-heart.svg', alt: 'heart'},
