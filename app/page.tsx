@@ -32,9 +32,16 @@ const Home = () => {
                             retain more.
                         </p>
 
+                        Searchbar
                 </div>
+                  HeroCarousel
           </div>
 
+       </section>
+
+       {/* at (38:40): https://youtu.be/lh9XVGv6BHs?si=2bYfEcaKHJl42uPj&t=2320  */}
+       <section className="trending-section">
+          <h2 className="section-text">Trending</h2>
        </section>
 
     </>
