@@ -39,9 +39,14 @@ const Home = () => {
 
        </section>
 
-       {/* at (38:40): https://youtu.be/lh9XVGv6BHs?si=2bYfEcaKHJl42uPj&t=2320  */}
        <section className="trending-section">
           <h2 className="section-text">Trending</h2>
+            <div className="flex flex-wrap gap-x-8 gap-y-16">
+                {/* (39:45) - mock array */}
+                {['Apple iPhone 15', 'Book', 'Sneakers'].map((product) => (
+                  <div>{product}</div>
+                ))}
+            </div>
        </section>
 
     </>
