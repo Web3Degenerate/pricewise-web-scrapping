@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import SearchBar from './components/SearchBar'
 
 {/* Built out at (34:00): https://youtu.be/lh9XVGv6BHs?si=lMXiOxPHde1ZbNCu&t=2040 */}
 
@@ -32,7 +33,7 @@ const Home = () => {
                             retain more.
                         </p>
 
-                        Searchbar
+                        <SearchBar />
                 </div>
                   HeroCarousel
           </div>
