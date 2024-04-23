@@ -35,6 +35,7 @@ const Home = () => {
 
                         <SearchBar />
                 </div>
+                {/* See (45:10): https://youtu.be/lh9XVGv6BHs?si=xcD9QKEVUU5MuhE6&t=2710 */}
                   HeroCarousel
           </div>
 
