@@ -21,6 +21,15 @@ Run commands at [18th minute](https://www.youtube.com/watch?v=lh9XVGv6BHs&t=1129
 
 ---
 
+### Third Party Packages
+
+1. [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)
+  - `npm i react-responsive-carousel`
+  - _See Docs_
+
+
+---
+
 ---
 
 ### Plugins
