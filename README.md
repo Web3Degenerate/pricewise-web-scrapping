@@ -54,6 +54,24 @@ Run commands at [18th minute](https://www.youtube.com/watch?v=lh9XVGv6BHs&t=1129
 
 ---
 
+
+
+### Git Reset Head
+
+
+See [notes on git reset --hard HEAD](https://github.com/Web3Degenerate/ecw-fax-to-text?tab=readme-ov-file#git-reset-head)
+
+[_From this StackOverflow Article_](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files)
+
+```js
+git reset --hard HEAD
+git pull
+
+```
+
+
+
+---
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
