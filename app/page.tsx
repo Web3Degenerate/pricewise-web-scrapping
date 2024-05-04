@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import React from 'react'
+// import React from 'react'
 import SearchBar from './components/SearchBar'
 import HeroCarousel from './components/HeroCarousel'
 

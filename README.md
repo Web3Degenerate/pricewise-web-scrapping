@@ -24,11 +24,22 @@ Run commands at [18th minute](https://www.youtube.com/watch?v=lh9XVGv6BHs&t=1129
 ### Third Party Packages
 
 1. [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)
-  - `npm i react-responsive-carousel`
-  - _See Docs_
 
+- `npm i react-responsive-carousel`
+- _See Docs_
 
 ---
+
+### Tailwind CSS Tricks
+
+1. Hide image on smaller devices
+
+- See [(~55:20)](https://youtu.be/lh9XVGv6BHs?si=gMWv2BDcRkHYXHDA&t=3320) to see how we hide the arrow on the landing page when the device is not large enough for a horizontal display:
+
+```js
+//In the HeroCarousel.tsx component see the className used:
+<Image src="assets/icons/hand-drawn-arrow.svg" alt="arrow" width={175} height={175} className="max-xl:hidden absolute -left-[15%] bottom-0 z-0" />
+```
 
 ---
 
@@ -54,10 +65,7 @@ Run commands at [18th minute](https://www.youtube.com/watch?v=lh9XVGv6BHs&t=1129
 
 ---
 
-
-
 ### Git Reset Head
-
 
 See [notes on git reset --hard HEAD](https://github.com/Web3Degenerate/ecw-fax-to-text?tab=readme-ov-file#git-reset-head)
 
@@ -69,9 +77,14 @@ git pull
 
 ```
 
+---
 
+## Web Scrapping Begins in Minute [(56:10)](https://youtu.be/lh9XVGv6BHs?si=tAwPpEXCxvVoiepC&t=3370)
+
+- [_Start Here (56:10)_](https://youtu.be/lh9XVGv6BHs?si=tAwPpEXCxvVoiepC&t=3370)
 
 ---
+
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).

@@ -23,7 +23,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-        <body className={inter.className}>{children}
+        {/* <body className={inter.className}>{children} */}
+        <body className={inter.className}>
               <main className="max-w-10xl mx-auto">
                     <Navbar />
                     {children}
