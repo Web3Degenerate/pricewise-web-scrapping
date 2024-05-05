@@ -83,6 +83,14 @@ git pull
 
 - [_Start Here (56:10)_](https://youtu.be/lh9XVGv6BHs?si=tAwPpEXCxvVoiepC&t=3370)
 
+
+
+
+### Third Party Solutions
+
+1. [**BrightData.com's Web Unlocker**](https://brightdata.com/products/web-unlocker)
+  - x
+
 ---
 
 ---

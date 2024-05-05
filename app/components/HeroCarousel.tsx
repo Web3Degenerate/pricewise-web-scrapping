@@ -21,9 +21,9 @@ const HeroCarousel = () => {
       {/* See available Carousel props at: https://www.npmjs.com/package/react-responsive-carousel */}
         <Carousel
           showThumbs={false}
-          autoPlay
+        //   autoPlay
           infiniteLoop
-          interval={2000}
+        //   interval={2000}
           showArrows={false}
           showStatus={false}
         >
