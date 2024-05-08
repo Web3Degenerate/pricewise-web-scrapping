@@ -1,5 +1,6 @@
 "use client"
 
+import { scrapeAndStoreProduct } from "@/lib/actions"
 import { FormEvent, useState } from "react"
 
 const SearchBar = () => {
@@ -33,7 +34,7 @@ const SearchBar = () => {
   }
 
 // (59:20): Since TypeScript define type of event explicitly: https://youtu.be/lh9XVGv6BHs?si=5ZJouZ1hAM4jL_1N&t=3560 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault() //stop page reload
 
     //check if url entered is valid
@@ -47,7 +48,9 @@ const SearchBar = () => {
 
       try{
         setIsLoading(true)
-        // (1:05:28) - finally implement the scrapping logic here. 
+        // (1:05:28) - finally implement the scrapping logic here. (set up lib files)
+        // (~1:18:00) - Call scrapeAndStoreProduct in lib/actions/index.ts
+        const product = await scrapeAndStoreProduct(searchPrompt);
         
       }catch(error){
         console.log(error)

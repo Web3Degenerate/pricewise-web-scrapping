@@ -21,12 +21,37 @@ Run commands at [18th minute](https://www.youtube.com/watch?v=lh9XVGv6BHs&t=1129
 
 ---
 
+### Prevent Cors error in next.config.js [(1:18:41)](https://youtu.be/lh9XVGv6BHs?si=C09NhK-fv4pSx9cc&t=4721)
+
+```js
+/** @type {import('next').NextConfig} */
+// Updated at 1:18:41: https://youtu.be/lh9XVGv6BHs?si=C09NhK-fv4pSx9cc&t=4721
+const nextConfig = {
+  experimental: {
+    serverActions: true,
+    serverComponentsExternalPackages: ["mongoose"]
+  },
+  images: {
+    domains: ["m.media-amazon.com"]
+  }
+}
+
+export default nextConfig
+// module.exports = nextConfig
+```
+
 ### Third Party Packages
 
 1. [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)
 
 - `npm i react-responsive-carousel`
 - _See Docs_
+
+2. Install Axios **with cheerio** _at [(1:14:40)](https://youtu.be/lh9XVGv6BHs?si=8bPXZeemUuRLpSC0&t=4480)_
+
+- run `npm i axios cheerio`
+  - _See_ [Cheerio.js.org here](https://cheerio.js.org/)
+  - x
 
 ---
 
@@ -83,13 +108,11 @@ git pull
 
 - [_Start Here (56:10)_](https://youtu.be/lh9XVGv6BHs?si=tAwPpEXCxvVoiepC&t=3370)
 
-
-
-
 ### Third Party Solutions
 
 1. [**BrightData.com's Web Unlocker**](https://brightdata.com/products/web-unlocker)
-  - x
+
+- x
 
 ---
 
